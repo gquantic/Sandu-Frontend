@@ -1,0 +1,22 @@
+.two-columns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.two-columns .item {
+  margin-bottom: 30px;
+}
+
+.first-column {
+  width: 730px;
+}
+
+.second-column {
+  width: 350px;
+}
+.second-column .card-body {
+  padding: 24px 24px;
+}
+.second-column .long-details div {
+  text-align: left;
+}
