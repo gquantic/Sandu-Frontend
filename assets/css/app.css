@@ -40,8 +40,16 @@ input::placeholder {
   color: #8F92A1;
 }
 
+.font-bold {
+  font-weight: 500;
+}
+
 .mr-24 {
   margin-right: 24px;
+}
+
+.mr-3 {
+  margin-right: 5px;
 }
 
 .btn {
