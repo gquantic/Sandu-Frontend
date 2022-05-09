@@ -13,4 +13,5 @@ const mix = require('laravel-mix');
 
 mix
     .sass('assets/sass/app.scss', 'assets/css')
-    .sass('assets/sass/two-column.scss', 'assets/css');
+    .sass('assets/sass/two-column.scss', 'assets/css')
+    .sass('assets/sass/job-search.scss', 'assets/css');

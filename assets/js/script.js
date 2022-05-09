@@ -11,7 +11,6 @@ $('.nav-tabs li').on('click', function () {
    selectedBlock.children('#' + item).addClass('active');
 });
 
-
 var swiper = new Swiper(".product-media__body", {
    loop: true,
    slidesPerView: 3,

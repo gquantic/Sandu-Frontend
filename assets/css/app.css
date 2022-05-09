@@ -149,6 +149,12 @@ header .top-menu .right-block .user {
 }
 header .top-menu .bell {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .top-menu .bell img {
+  width: 16px;
+  height: 18px;
 }
 header .top-menu .bell .notify-count {
   position: absolute;
@@ -161,7 +167,7 @@ header .top-menu .bell .notify-count {
   justify-content: center;
   align-items: center;
   font-size: 8px;
-  transform: translateX(6px) translateY(4px);
+  transform: translateX(8px) translateY(-8px);
 }
 header .header-search {
   width: 100%;
@@ -372,4 +378,11 @@ ul.nav-tabs li.active {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.collapsed-item {
+  display: none;
+}
+.collapsed-item.show {
+  display: block;
 }

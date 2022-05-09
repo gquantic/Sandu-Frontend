@@ -1,0 +1,101 @@
+[data-collapse-trigger] {
+  cursor: pointer;
+}
+[data-collapse-trigger] svg {
+  transition: 0.3s;
+}
+[data-collapse-trigger].opened svg {
+  transform: rotateZ(-180deg);
+}
+
+.with-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h3[data-collapse-trigger] {
+  color: #171717;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.4px;
+}
+
+.job-search__filter-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 10px;
+}
+.job-search__filter-block label {
+  font-weight: 500;
+  color: #171717;
+  font-size: 14px;
+  margin: 7px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.job-search__filter-block label .count {
+  color: #8F92A1;
+  background: rgba(143, 146, 161, 0.1);
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+
+.job-search__results-table {
+  width: 100%;
+}
+.job-search__results-table tr {
+  border-bottom: 1px solid rgba(143, 146, 161, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.job-search__results-table tr td:nth-child(3) {
+  width: 25%;
+}
+.job-search__results-table tr td:nth-child(4) {
+  width: 17%;
+}
+.job-search__results-table tr.bookmark {
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+.job-search__results-table tr td {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  padding: 32px 20px;
+}
+.job-search__results-table tr td span {
+  font-size: 12px;
+}
+.job-search__results-table tr td.title {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.job-search__results-table tr td.title h4 {
+  font-size: 16px;
+  max-width: 246px;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.msg {
+  font-size: 12px;
+  padding: 2px 7px;
+  border-radius: 8px;
+}
+.msg.blue {
+  color: #0052CC;
+  background: rgba(0, 82, 204, 0.2);
+}
+.msg.green {
+  color: #00875A;
+  background: rgba(0, 135, 90, 0.2);
+}
